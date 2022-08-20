@@ -33,7 +33,7 @@ class WallServiceTest {
         service.add(Post(id = 0, likes = likes))
         service.add(Post(id = 0, likes = likes))
 
-        val update = Post(id = 3, likes = likes)
+        val update = Post(id = 1, likes = likes)
 
         val result = service.update(update)
 
